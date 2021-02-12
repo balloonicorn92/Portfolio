@@ -1,0 +1,120 @@
+:root {
+    --primary-color:#A5CCCC;
+    --secondary-color:#546C8C;
+    --tertiary-color:#4B4F4C;
+}
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Helvetica';
+}
+header {
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 40px 10px 0px;
+    position:relative;
+    justify-content: space-between;
+    font-family: 'Helvetica';
+}
+header h1 {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    padding: 10px 0px 10px 50px;
+    font-size: xx-large;
+
+}
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li {
+    padding: 15px;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+.nav-bar {
+    border-bottom: 5px solid;
+    border-color: var(--primary-color);
+}
+.hero {
+    background-image: url("./images/02-hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.hero h2 {  
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    margin-bottom:25px ;
+    margin-right: 40px;
+    padding: 10px;
+}
+.border {
+    border-right: 5px solid; 
+    border-color: var(--secondary-color);
+    text-align: right;
+}
+/* about me section begins*/
+.about-me {
+    display:flex;
+    margin: 25px 20px 10px 20px;
+}
+.about-me div h2 {
+    margin: 5px 5px 20px 20px;
+    padding: 10px 10px 90px 10px;
+    color: var(--secondary-color);
+    font-size: xx-large;
+}
+.about-me div p {
+    padding: 5px 60px 40px 20px;
+    margin: 5px 20px 20px 30px;
+    color: var(--secondary-color);
+}
+/*about me section ends*/
+/* work section begins */
+.work {
+    display: flex;
+    margin: 25px 20px 10px 20px;
+    font-family: 'Helvetica';
+}
+.work div h2 {
+    margin: 5px 5px 20px 20px;
+    padding: 10px 10px 90px 10px;
+    color: var(--secondary-color);
+    font-size: xx-large;
+}
+.first-container {
+    background-image: url(./images/2021-02-12\ at\ 1.23\ PM.png);
+    background-size: cover;
+    border: 5px solid;
+    border-color: var(--primary-color);
+    padding: 150px 300px 150px 300px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.first-container div {
+    background: var(--primary-color);
+    margin-bottom:25px ;
+    margin-right: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+/*work section ends*
