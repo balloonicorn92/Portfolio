@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Helvetica';
+    background-color: #D0D9D9;
 }
 header {
     background-color: var(--tertiary-color);
@@ -68,6 +69,15 @@ header nav ul li {
     border-color: var(--secondary-color);
     text-align: right;
 }
+.author-img {
+    margin-right: auto;
+    margin-left: auto;
+}
+.author-img img {
+    max-width: 20vh;
+    border-radius: 50%;
+}
+
 /* about me section begins*/
 .about-me {
     display:flex;
