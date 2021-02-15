@@ -198,3 +198,22 @@ header nav ul li {
     text-align: justify;
     width: 75%;
 }
+
+@media screen and  (max-width:575px){
+    .first-container {
+        min-height: 30vh;
+    }
+
+    .contact-info {
+        font-size: medium;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;    
+    }
+}
