@@ -1,7 +1,7 @@
 :root {
-    --primary-color:#A5CCCC;
-    --secondary-color:#546C8C;
-    --tertiary-color:#4B4F4C;
+    --primary-color:#EDD4B2;
+    --secondary-color:#8C2965;
+    --tertiary-color:#4D243D;
 }
  * {
     margin: 0;
@@ -232,6 +232,12 @@ header nav ul li {
     font-size: x-large;
     text-align: justify;
     width: 75%;
+}
+.anchor:link {
+    color: var(--tertiary-color);
+}
+.anchor:visited {
+    color: var(--secondary-color);
 }
 
 @media screen and  (max-width:575px){
