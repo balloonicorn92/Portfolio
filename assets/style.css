@@ -92,7 +92,7 @@ header nav ul li {
     font-family: 'Helvetica';
 }
 .work div h2 {
-    margin: 5px 5px 20px 20px;
+    margin: 5px 19px 20px 20px;
     padding: 10px 10px 90px 10px;
     color: var(--secondary-color);
     font-size: xx-large;
@@ -177,5 +177,24 @@ header nav ul li {
 .first-container:hover {
     opacity: .5;
 }
-
 /*work section ends*/
+.contact-me div h2 {
+    margin: 5px 0px 20px 0px;
+    padding: 10px 10px 90px 10px;
+    color: var(--secondary-color);
+    font-size: xx-large;
+}
+.contact-me {
+    display: flex;
+    margin: 25px 20px 10px 20px;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    line-height: 1.7;
+    font-size: x-large;
+    text-align: justify;
+    width: 75%;
+}
