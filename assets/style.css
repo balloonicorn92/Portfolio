@@ -114,6 +114,25 @@ header nav ul li {
     border: 5px solid;
     border-color: var(--primary-color);
 }
+.button {
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    background: var(--secondary-color);
+  }
+.button a {
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  .first-container:hover .button {
+    opacity: 1;
+  }
 .flex-flow {
     color: var(--tertiary-color);
     background-color: var(--primary-color);
@@ -177,9 +196,15 @@ header nav ul li {
 .first-container:hover {
     opacity: .5;
 }
+.project-img2:hover .button,
+.project-img3:hover .button,
+.project-img4:hover .button,
+.project-img5:hover .button {
+    opacity: 1;
+}
 /*work section ends*/
 .contact-me div h2 {
-    margin: 5px 0px 20px 0px;
+    margin: 5px 20px 20px 0px;
     padding: 10px 10px 90px 10px;
     color: var(--secondary-color);
     font-size: xx-large;
@@ -215,5 +240,30 @@ header nav ul li {
     .hero {
         display: flex;
         justify-content: center;    
+    }
+    .button a {
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+    padding: 0;
+    width: auto;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    }
+}
+@media screen and  (max-width:768px){
+    .button a {
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+    padding: 0;
+    width: auto;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    }
+    .contact-info {
+        font-size: medium;
     }
 }
